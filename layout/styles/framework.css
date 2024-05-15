@@ -126,7 +126,7 @@ body {
     border-radius: 15px;
 }
 
-.avatar {
+/* .avatar {
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -134,7 +134,15 @@ body {
     border: 1px solid;
     text-align: center;
     margin-left: 35px;
+} */
+
+.avatar {
+    padding: 20px 80px 0 80px;
+    width: 97%;
 }
+
+
+
 
 .clear,
 .group {
@@ -367,9 +375,9 @@ It should be used in conjunction with a second class or ID
     clear: right;
 }
 
-.one_quarter {
+/* .one_quarter {
     width: 22.69938650306748%;
-}
+} */
 
 .one_third {
     width: 31.28834355828221%;

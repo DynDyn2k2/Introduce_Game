@@ -77,15 +77,15 @@
 }
 
 #header.small {
-    padding: 20px 0;
+	padding: 20px 0;
 }
 
 #header.small #logo h1 {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 #header.small #logo p {
-    font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 
 #nav {
@@ -122,14 +122,14 @@
 }
 
 .fixed-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
 }
 
 .row1.dark-bg {
-    background-color: #000000;
+	background-color: #000000;
 }
 
 
@@ -162,61 +162,62 @@
 /* CONTACT
 --------------------------------------------------------------------------------------------------------------- */
 .contact {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .contact .one_quarter {
-    flex: 0 0 25%;
+	/* flex: 0 0 25%; */
+	flex: 0 0 50%;
 }
 
 #information.info {
-    color: black;
-    text-align: center;
+	color: black;
+	text-align: center;
 }
 
 #information.info ul {
-    padding: 0;
-    list-style: none;
+	padding: 0;
+	list-style: none;
 }
 
 #information.info ul li {
-    display: block;
-    margin: 0 10px;
+	display: block;
+	margin: 0 10px;
 }
 
 #information.info ul li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
 }
 
 #information.info ul li a i {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 #information.info ul li a:hover {
-    color: #ddb654;
+	color: #ddb654;
 }
 
 
 /* INTRODUCE
 --------------------------------------------------------------------------------------------------------------- */
 .introduce {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .introduce ul {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+	display: flex;
+	gap: 20px;
+	padding: 0;
+	margin: 0;
 }
 
 .introduce li {
-    list-style: none;
-    text-align: center;
+	list-style: none;
+	text-align: center;
 }
 
 
@@ -770,7 +771,8 @@ textarea:focus,
 	border-color: inherit;
 }
 
-.icon, .avatar, .demo{
+.icon,
+.demo {
 	color: #FFFFFF;
 	background-color: #9D8D65;
 	border-color: inherit;
@@ -1055,46 +1057,47 @@ table a,
 
 
 @media screen and (max-width:750px) {
-/* ==================================== HEADER MENU ============================= */
+
+	/* ==================================== HEADER MENU ============================= */
 	#logo {
 		display: none;
-	  }
-	  
-	  #nav {
+	}
+
+	#nav {
 		width: 100%;
-	  }
-	  
-	  #nav ul.menu {
+	}
+
+	#nav ul.menu {
 		margin: 0;
 		padding: 0;
 		text-align: center;
-	  }
-	  
-	  #nav ul.menu li {
+	}
+
+	#nav ul.menu li {
 		display: inline-block;
 		margin: 0 10px;
-	  }
-	
-	  #nav ul.menu li a {
+	}
+
+	#nav ul.menu li a {
 		font-size: 10px;
-	  }
+	}
 
-	  .contact {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+	.contact {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
 		padding: 0;
-    }
+	}
 
-    .contact li {
-        margin: 20px;
-    }
+	.contact li {
+		margin: 20px;
+	}
 
 	.avatar {
 		margin: 0;
 	}
 
-/* ==================================== BODY ============================= */
+	/* ==================================== BODY ============================= */
 
 	.imgl,
 	.imgr {
@@ -1123,7 +1126,8 @@ table a,
 		padding: 0;
 	}
 
-	.group, #header {
+	.group,
+	#header {
 		text-align: center;
 	}
 
@@ -1191,5 +1195,14 @@ table a,
 
 	#header #quickinfo li {
 		margin-right: 0;
+	}
+
+	.contact .one_quarter {
+		flex: 0 0 25%;
+	}
+
+	.avatar {
+		width: 97%;
+		padding: 0;
 	}
 }
